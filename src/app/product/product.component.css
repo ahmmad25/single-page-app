@@ -1,0 +1,50 @@
+.port {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #f6f6f6;
+    width: 91%;
+    margin: auto;
+}
+
+.port .port-content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    box-shadow: 0px 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.card p {
+    color: #2c4755;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.card h4 {
+    padding-top: 7px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px
+}
+
+.btn {
+    margin: auto;
+}
